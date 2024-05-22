@@ -36,6 +36,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lucide-svelte": "^0.379.0"
+		"lucide-svelte": "^0.379.0",
+		"rehype-slug": "^6.0.0",
+		"remark-toc": "^9.0.0",
+		"remark-unwrap-images": "^4.0.0"
 	}
 }

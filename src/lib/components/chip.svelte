@@ -3,7 +3,7 @@
 </script>
 
 <li
-	class={`border rounded-sm text-xs px-2 py-1 hover:opacity-100 hover:border-primary cursor-pointer ${active ? 'border-primary' : 'border-gray-300 opacity-50'}`}
+	class={`border rounded-sm text-xs px-2 py-1 hover:opacity-100 hover:border-primary cursor-pointer ${active ? 'border-primary' : 'border-gray-300 opacity-80'}`}
 >
 	<slot />
 </li>

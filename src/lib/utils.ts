@@ -15,7 +15,7 @@ export const transition = {
 		delay: 150
 	} as FlyParams,
 	out: {
-		y: -20,
+		y: 0,
 		duration: 150
 	} as FlyParams
 };

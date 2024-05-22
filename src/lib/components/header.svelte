@@ -14,7 +14,7 @@
 <header
 	in:fly={transition.in}
 	out:fly={transition.out}
-	class={`border-b border-gray-100 w-full flex sticky top-0 bg-white/70 backdrop-blur transition-all duration-300 ${
+	class={`border-b border-gray-100 w-full flex sticky top-0 bg-white/70 backdrop-blur transition-all duration-300 z-50 ${
 		$scroll.direction === ScrollDirection.DOWN ? '-translate-y-full' : 'translate-y-0'
 	}`}
 >

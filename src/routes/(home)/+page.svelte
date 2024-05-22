@@ -9,7 +9,7 @@
 <main
 	in:fly={transition.in}
 	out:fly={transition.out}
-	class="w-screen h-screen grid place-items-center"
+	class="w-screen h-screen grid place-items-center overflow-hidden"
 >
 	<div class="flex flex-col items-center gap-4">
 		<Avatar />
