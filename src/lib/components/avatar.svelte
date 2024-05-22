@@ -1,4 +1,6 @@
-<div class="h-32 w-32 rounded-full avatar relative">
+<div
+	class={`h-32 w-32 rounded-full avatar relative border-2 border-transparent ${$$restProps.class || ''}`}
+>
 	<div
 		class="w-[calc(100%-8px)] h-[calc(100%-8px)] bg-white rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
 	></div>
@@ -64,8 +66,6 @@
 
 		-webkit-animation: gradient 2s linear infinite;
 		animation: gradient 2s linear infinite;
-
-		border: 2px solid transparent;
 
 		background:
 			-webkit-gradient(

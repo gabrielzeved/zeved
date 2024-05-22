@@ -1,11 +1,11 @@
 <ul class="flex gap-4 text-sm font-bold uppercase">
 	<li><a href="/blog">Blog</a></li>
-	<li><a href="/blog">Snippets</a></li>
-	<li><a href="/blog">Projects</a></li>
-	<li><a href="/blog">About</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/snippets">Snippets</a></li>
+	<li><a href="/about">About</a></li>
 </ul>
 
-<style>
+<style lang="postcss">
 	ul li {
 		position: relative;
 

@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils';
+	import { formatDate, transition } from '$lib/utils';
+	import { fly } from 'svelte/transition';
 
 	export let data;
 </script>
@@ -11,7 +12,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article>
+<article class="wrapper" in:fly={transition.in} out:fly={transition.out}>
 	<!-- Title -->
 	<hgroup>
 		<h1>{data.meta.title}</h1>
