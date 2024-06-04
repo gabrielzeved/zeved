@@ -23,3 +23,13 @@ code:not([class]) {
 	background-color: #f9f2f4;
 	border-radius: 5px;
 }
+
+body {
+	position: relative;
+	left: calc((100vw - 100%) / 2);
+}
+
+html,
+body {
+	height: 100%;
+}

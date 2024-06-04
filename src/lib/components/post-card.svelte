@@ -7,14 +7,16 @@
 
 <a class="h-full" href={post.slug}>
 	<div class="h-full rounded border border-gray-300 overflow-hidden">
-		<img class="object-cover aspect-video" alt={post.title} src={post.image} />
+		<img class="object-cover aspect-video w-full" alt={post.title} src={post.image} />
 
 		<div class="p-4">
 			<ul class="flex items-center flex-wrap gap-2 mb-2">
 				{#each post.categories as category}
-					<Chip>
-						{category}
-					</Chip>
+					<a href={`/blog?tag=${category}`}>
+						<Chip>
+							{category}
+						</Chip>
+					</a>
 				{/each}
 			</ul>
 

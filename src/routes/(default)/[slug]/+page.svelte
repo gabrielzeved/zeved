@@ -24,9 +24,11 @@
 			<ul class="flex gap-2 mt-4 items-center">
 				{#each data.meta.categories as category}
 					<li>
-						<Chip>
-							{category}
-						</Chip>
+						<a href={`/blog?tag=${category}`}>
+							<Chip>
+								{category}
+							</Chip>
+						</a>
 					</li>
 				{/each}
 			</ul>
@@ -34,23 +36,35 @@
 	</hgroup>
 
 	<!-- Post -->
-	<div class="prose wrapper mb-24">
+	<div class="prose wrapper pb-24">
 		<svelte:component this={data.content} />
 	</div>
 </article>
 
 <style lang="scss">
-	.article {
+	.prose {
 		:global(p) {
 			margin: 16px 0;
+		}
+
+		:global(ul),
+		:global(ol) {
+			all: revert;
 		}
 
 		:global(h2) {
 			@apply text-2xl font-bold text-gray-900 mt-8;
 		}
 
+		:global(h3) {
+			@apply text-xl font-bold text-gray-900 mt-8;
+		}
+
+		:global(img) {
+			@apply mx-auto max-h-80;
+		}
 		:global(a) {
-			@apply text-gray-900 relative;
+			@apply text-gray-900 relative font-bold;
 
 			&:hover {
 				&::after {
