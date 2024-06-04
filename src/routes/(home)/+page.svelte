@@ -6,6 +6,10 @@
 	import { fly } from 'svelte/transition';
 </script>
 
+<svelte:head>
+	<title>Gabriel Azevedo</title>
+</svelte:head>
+
 <main
 	in:fly={transition.in}
 	out:fly={transition.out}

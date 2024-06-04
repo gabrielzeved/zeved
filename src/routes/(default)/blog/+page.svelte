@@ -7,6 +7,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Gabriel Azevedo - Blog</title>
+</svelte:head>
+
 <section in:fly={transition.in} out:fly={transition.out} class="wrapper flex flex-col">
 	<h1 class="py-2 border-b border-gray-300 text-sm text-gray-700">POSTS</h1>
 

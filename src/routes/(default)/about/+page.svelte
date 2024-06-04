@@ -4,6 +4,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Gabriel Azevedo - About</title>
+</svelte:head>
+
 <article class="article text-base text-gray-800" in:fly={transition.in} out:fly={transition.out}>
 	<div class="prose wrapper pb-24">
 		<svelte:component this={data.content} />
