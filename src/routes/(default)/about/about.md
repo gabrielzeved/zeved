@@ -1,6 +1,6 @@
 # Hello! I'm Gabriel Azevedo.
 
-I'm a Brazilian senior fullstack engineer who loves the idea of building tools for other developers and building things from scratch.
+I'm a Brazilian fullstack engineer who loves the idea of building tools for other developers and building things from scratch.
 
 I got my bachelor's degree at [Universidade Federal Fluminense](https://www.uff.br/).
 
